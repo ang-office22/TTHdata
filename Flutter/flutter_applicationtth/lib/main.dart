@@ -18,7 +18,6 @@ class MainApp extends StatelessWidget {
             child: Column(
               children: [
                 Center(child: Text('Customer Data', style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),)),
-
                 SizedBox(height: 12,),
 
                 // test kotak data
@@ -40,6 +39,7 @@ class MainApp extends StatelessWidget {
                             Text('CustID001', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold ),),
                             Text('Nama', style: TextStyle(fontSize: 16,)),
                             Text('Alamat', style: TextStyle(fontSize: 16,)),
+                            Text('+62xxxxxxx02', style: TextStyle(fontSize: 16,)),
                           ],
                         ),
                       ),
